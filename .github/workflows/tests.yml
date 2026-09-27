@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       matrix:
-        os: [macos-26]
+        os: [macos-latest]
         include:
           - os: ubuntu-latest
             container: ghcr.io/homebrew/brew:main
